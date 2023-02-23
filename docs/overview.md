@@ -1,113 +1,113 @@
-# Overview
+# Visão Geral
 
-## Lessons
+## Lições
 
-### [Using Ontologies and Ontology Terms](lesson/ontology-term-use.md)
+### [Usando Ontologias e Termos de Ontologia](lesson/ontology-term-use.md)
 
-- Target [roles](getting-started.md#oboroles): Database Curators
-- Skills:
-  - know what ontologies are good for
-  - find good ontologies: ontology repositories, OBO
-  - find good terms: ontology browsers
-  - assess for use: license, quality
-  - map local terms to ontology terms
-  - identify missing terms
-  - use IRIs, prefixes, CURIEs, labels
-  - use Protege?
+- Destinado a [certos papéis](getting-started.md#oboroles): Curadores de banco de dados
+- Habilidades:
+  - saber para que servem as ontologias
+  - encontrar boas ontologias: repositórios de ontologias, OBO
+  - encontrar bons termos: navegadores de ontologia
+  - avaliar para uso: licença, qualidade
+  - mapear termos locais para termos de ontologia
+  - identificar termos faltantes
+  - usar IRIs, prefixos, CURIEs, rótulos
+  - usar Protege?
 
-### [Contributing to OBO ontologies 1: Protege and Github](lesson/contributing-to-obo-ontologies.md)
+### [Contribuindo para as ontologias OBO 1: Protege e Github](lesson/contributing-to-obo-ontologies.md)
 
-- Target [roles](getting-started.md#oboroles): Database Curators, Ontology Curator, Ontology Engineer/Developer
-- Builds on:
-  - [Ontology Term Use](lesson/ontology-term-use.md)
-- Skills:
-  - use GitHub: issues, Pull Requests
-  - understand basic Open Source etiquette
-    - reading READMEs
-  - understand basics of ontology development workflows
-  - understand ontology design patterns
-  - use templates: ROBOT, DOS-DP
-  - basics of OWL
+- Destinado a [certos papéis](getting-started.md#oboroles): Curadores de banco de dados, Curador de Ontologia, Engenheiro / Desenvolvedor de Ontologia
+- Constrói sobre:
+  - [Usando Ontologias e Termos de Ontologia](lesson/ontology-term-use.md)
+- Habilidades:
+  - usar o GitHub: issues, Pull Requests
+  - entender a etiqueta básica do Open Source
+    - ler READMEs
+  - entender noções básicas de fluxos de desenvolvimento de ontologia
+  - entender os padrões de design de ontologia
+  - usar modelos: ROBOT, DOS-DP
+  - noções básicas de OWL
 
-### [Ontology Fundamentals](lesson/ontology-fundamentals.md)
+### [Fundamentos de Ontologia](lesson/ontology-fundamentals.md)
 
-- Target [roles](getting-started.md#oboroles): Ontology Curators, Ontology Engineer/Developer
-- Builds on:
-  - [Ontology Term Use](lesson/ontology-term-use.md)
-- Skills:
+- Destinado a [certos papéis](getting-started.md#oboroles): Curadores de Ontologia, Engenheiro / Desenvolvedor de Ontologia
+- Constrói sobre:
+  - [Usando Ontologias e Termos de Ontologia](lesson/ontology-term-use.md)
+- Habilidades:
   - RDF
   - RDFS
   - OWL
   - Reasoners
-  - basic SPARQL
+  - SPARQL básico
   - Turtle, JSON-LD
 
-### Linked Data Analysis
+### Análise de Dados Vinculados
 
-- Target [roles](getting-started.md#oboroles): Ontology Curators, (Semantic) Software Engineer
-- Builds on:
-  - [Ontology Fundamentals](lesson/ontology-fundamentals.md)
-- Skills:
-  - Advanced SPARQL
-  - Term enrichment
-  - Semantic similarity
-  - Named Entity Recognition
-  - more...
+- Destinado a [papéis](getting-started.md#oboroles): Curadores de Ontologia, Engenheiro / Desenvolvedor de Software (Semântico)
+- Constrói sobre:
+  - [Fundamentos de Ontologia](lesson/ontology-fundamentals.md)
+- Habilidades:
+  - SPARQL avançado
+  - Enriquecimento de termos
+  - Similaridade semântica
+  - Reconhecimento de Entidades Nomeadas
+  - mais...
 
-### Ontology Development
+### Desenvolvimento de Ontologia
 
-- Builds on:
-  - [Ontology Fundamentals](lesson/ontology-fundamentals.md)
-  - [Contributing to OBO ontologies](lesson/contributing-to-obo-ontologies.md)
-- Skills:
-  - Manage GitHub
-  - Manage ontology imports
-  - Use ROBOT extract: MIREOT, SLME
-  - Use ROBOT report
-  - Pruning trees
+- Baseia-se em:
+  - [Fundamentos de Ontologia](lesson/ontology-fundamentals.md)
+  - [Contribuindo para ontologias OBO](lesson/contributing-to-obo-ontologies.md)
+- Habilidades:
+  - Gerenciar o GitHub
+  - Gerenciar a importação de ontologias
+  - Usar a ferramenta ROBOT para extrair informações: MIREOT, SLME
+  - Usar o relatório ROBOT
+  - Realizar a poda de árvores
 
-### Semantic Databases
+### Bancos de Dados Semânticos
 
-- Builds on:
-  - Ontology Development
-- Skills:
-  - advanced term mapping
-  - ontology terms in SQL
-  - terminology table JOINs, constraints
-  - convert tables to triples
-  - triplestores
-  - knowledge graphs
+- Baseia-se em:
+  - Desenvolvimento de Ontologia
+- Habilidades:
+  - Mapeamento avançado de termos
+  - Termos de ontologia em SQL
+  - JOINs de tabelas de terminologia, restrições
+  - Converter tabelas em triplas
+  - Armazenamento de triplas
+  - Grafos de conhecimento
 
-### [Automating Ontology Development Workflows](lesson/automating-ontology-workflows.md)
+### [Automação de Fluxos de Trabalho de Desenvolvimento de Ontologia](lesson/automating-ontology-workflows.md)
 
-- Builds on:
-  - Ontology Development
-  - Ontology Pipelines
-- Skills:
+- Baseia-se em:
+  - Desenvolvimento de Ontologia
+  - Pipelines de Ontologia
+- Habilidades:
   - Unix shell
   - `make`
-  - Advanced git, GitHub
+  - Git e GitHub avançados
   - ROBOT
   - ODK
 
-### [Developing an OBO Reference Ontology](lesson/developing-an-obo-ontology.md)
+### [Desenvolvendo uma Ontologia de Referência OBO](lesson/developing-an-obo-ontology.md)
 
-- Builds on:
-  - Ontology Development Automation
-- Skills:
-  - Detailed knowledge of OBO principles and best practises
-  - Use OBO Dashboard
-  - Use OBO Registry
-  - Use PURL system
+- Baseia-se em:
+  - Automação de Desenvolvimento de Ontologia
+- Habilidades:
+  - Conhecimento detalhado dos princípios e melhores práticas da OBO
+  - Usar o Painel de Controle OBO
+  - Usar o Registro OBO
+  - Usar o sistema PURL
 
-## Tutorials
+## Tutoriais
 
-- [ROBOT Tutorial 1: Convert, Extract and Template](tutorial/robot-tutorial-1.md)
-- [ROBOT Tutorial 2: Annotate, Merge, Reason and Diff](tutorial/robot-tutorial-2.md)
-- [Introduction to GitHub](tutorial/github-fundamentals.md)
-- [Intro to managing and tracking issues in GitHub](tutorial/github-issues.md)
+- [Tutorial ROBOT 1: Conversão, Extração e Modelo](tutorial/robot-tutorial-1.md)
+- [Tutorial ROBOT 2: Anotação, Fusão, Raciocínio e Diferença](tutorial/robot-tutorial-2.md)
+- [Introdução ao GitHub](tutorial/github-fundamentals.md)
+- [Introdução à gestão e rastreamento de problemas no GitHub](tutorial/github-issues.md)
 
-## How-to guides
+## Guias de Como Fazer
 
-- [Install Elk 0.5 in Protege](howto/installing-elk-in-protege.md)
-- [Getting set up with Docker and the Ontology Development Kit](howto/odk-setup.md)
+- [Instalar Elk 0.5 no Protege](howto/installing-elk-in-protege.md)
+- [Configuração do Docker e do Ontology Development Kit](howto/odk-setup.md)
